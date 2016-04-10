@@ -72,9 +72,9 @@ if (!empty($_POST["sub"])) {
      mysql_close($con);
      if ($row[0]==$password){
       if ($role==1) {
-        header("Location: manager.php?email=$email");
+        header("Location: /manager.php?email=$email");
       }
-      else{header("Location: main.php?email=$email");}
+      else{header("Location: /main.php?email=$email");}
       exit();
     }
     else{
