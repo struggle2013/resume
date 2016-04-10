@@ -1,21 +1,6 @@
 <?php
 header("Content-type: text/html; charset=utf-8"); 
 include("conn.php");
- 	// $name=$_POST['name'];
- 	// $password=$_POST['password'];
- 	// $sql="SELECT PASSWORD FROM `user` WHERE email = '$name' ";
- 	// $result = mysql_query($sql);
- 	// $row=mysql_fetch_array($result);
- 	// echo _FILE_;
- 	// mysql_close($con);
- 	// if ($row[0]==$password) {
- 	// 	header("Location: ../information.html");
- 	// 	exit();
- 	// }
- 	// else{
- 	// 	header("Location: ../index.html");
-
- 	// }
 
 $err="";
 $role=0;
