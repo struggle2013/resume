@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<?php $err="";header("Content-type: text/html; charset=utf-8");?>
+<?php $err="";?>
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
