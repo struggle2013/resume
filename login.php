@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-
+<?php $err="";?>
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -52,7 +52,7 @@
 header("Content-type: text/html; charset=utf-8"); 
 include("conn.php");
 
-$err="";
+
 $role=0;
 if (!empty($_POST["sub"])) {
  $email=$_POST['email'];
